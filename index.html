@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>পোর্টফোলিও - শুভ দাস</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon/images.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- ==================== NAVIGATION BAR ==================== -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">শুভ দাস</a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">হোম</a></li>
+                <li><a href="#about">আমার সম্পর্কে</a></li>
+                <li><a href="#skills">দক্ষতা</a></li>
+                <li><a href="#projects">প্রজেক্ট</a></li>
+                <li><a href="#contact">যোগাযোগ</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>হ্যালো, আমি <span class="highlight">শুভ দাস</span></h1>
+                <p class="tagline">আমি একজন <span id="typed-text"></span></p>
+                <a href="#projects" class="btn btn-primary">আমার কাজ দেখুন</a>
+                <a href="#contact" class="btn btn-secondary">যোগাযোগ করুন</a>
+            </div>
+            <div class="hero-image-container">
+                <img src="images/your-profile-image.jpg" alt="শুভ দাস" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT ME SECTION ==================== -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">আমার সম্পর্কে</h2>
+            <div class="about-content reveal">
+                <div class="about-image">
+                    <img src="images/your-profile-image.jpg" alt="শুভ দাস">
+                </div>
+                <div class="about-text">
+                    <h3>আমি কে?</h3>
+                    <p>
+                        আমি শুভ দাস, টাঙ্গাইল পলিটেকনিক ইনস্টিটিউটের কম্পিউটার টেকনোলজির ৩য় সেমিস্টারের ছাত্র। প্রযুক্তি আর প্রোগ্রামিংয়ে আগ্রহ থেকে আমি ওয়েব ডেভেলপমেন্ট শিখছি। বর্তমানে HTML, CSS, JavaScript জানি, এবং সামনে React, Node.js, Express.js, MongoDB শেখার পরিকল্পনা আছে। আমি নিয়মিত প্র্যাকটিস করি এবং ভবিষ্যতে বাংলাদেশের আইটি সেক্টরে অবদান রাখতে চাই।
+                    </p>
+                    <p>
+                        <strong>English Bio:</strong> I’m Shuvo Das, a student of Tangail Polytechnic Institute. I’m passionate about tech and programming. I’ve learned HTML, CSS, and JavaScript and plan to explore React, Node.js, Express.js, and MongoDB. I’m focused on regular practice and hope to contribute to Bangladesh’s IT sector.
+                    </p>
+                    <h4>লক্ষ্য: <span class="accent-text">একজন সফল Full Stack Web Developer হওয়া</span></h4>
+                    <a href="cv/ShuvoDas_CV.pdf" class="btn btn-primary" download>সিভি ডাউনলোড করুন (যদি থাকে)</a>
+                </div>
+            </div>
+             <div class="education-info reveal">
+                <h3>শিক্ষাগত যোগ্যতা</h3>
+                <ul>
+                    <li><strong>SSC (Technical):</strong> GPA 4.93</li>
+                    <li><strong>বর্তমান:</strong> কম্পিউটার টেকনোলজি, ৩য় সেমিস্টার, টাঙ্গাইল পলিটেকনিক ইনস্টিটিউট</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">আমার দক্ষতা</h2>
+            <div class="skills-grid">
+                <div class="skill-item reveal">
+                    <i class="fab fa-html5 skill-icon"></i>
+                    <h3>HTML5</h3>
+                    <p>সিমেন্টিক ও আধুনিক ওয়েবপেজ তৈরি।</p>
+                </div>
+                <div class="skill-item reveal">
+                    <i class="fab fa-css3-alt skill-icon"></i>
+                    <h3>CSS3</h3>
+                    <p>রেসপন্সিভ এবং আকর্ষণীয় ডিজাইন।</p>
+                </div>
+                <div class="skill-item reveal">
+                    <i class="fab fa-js-square skill-icon"></i>
+                    <h3>JavaScript</h3>
+                    <p>ডাইনামিক ও ইন্টারঅ্যাক্টিভ ওয়েব।</p>
+                </div>
+            </div>
+            <h3 class="subsection-title reveal">শেখা চলছে</h3>
+            <div class="skills-grid">
+                 <div class="skill-item reveal">
+                    <i class="fab fa-bootstrap skill-icon"></i>
+                    <h3>Bootstrap</h3>
+                    <p>দ্রুত রেসপন্সিভ সাইট নির্মাণ।</p>
+                </div>
+                <div class="skill-item reveal">
+                    <!-- Tailwind এর অফিসিয়াল আইকন নেই, একটি সাধারণ কোড আইকন ব্যবহার করছি -->
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>Tailwind CSS</h3>
+                    <p>ইউটিলিটি-ফার্স্ট CSS ফ্রেমওয়ার্ক।</p>
+                </div>
+                <div class="skill-item reveal">
+                    <i class="fab fa-react skill-icon"></i>
+                    <h3>React.js</h3>
+                    <p>ইউজার ইন্টারফেস তৈরির লাইব্রেরি।</p>
+                </div>
+            </div>
+            <h3 class="subsection-title reveal">ভবিষ্যৎ পরিকল্পনা</h3>
+             <div class="skills-grid">
+                <div class="skill-item reveal">
+                    <i class="fab fa-node-js skill-icon"></i>
+                    <h3>Node.js</h3>
+                    <p>সার্ভার-সাইড জাভাস্ক্রিপ্ট রানটাইম।</p>
+                </div>
+                <div class="skill-item reveal">
+                    <!-- Express এর জন্য একটি সাধারণ সার্ভার আইকন -->
+                    <i class="fas fa-server skill-icon"></i>
+                    <h3>Express.js</h3>
+                    <p>Node.js এর জন্য ওয়েব ফ্রেমওয়ার্ক।</p>
+                </div>
+                <div class="skill-item reveal">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3>MongoDB</h3>
+                    <p>NoSQL ডকুমেন্ট ডাটাবেস।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">আমার প্রজেক্ট</h2>
+            <p class="section-subtitle reveal">প্র্যাকটিস প্রজেক্ট তৈরি করেছি, এখনো প্রফেশনাল কাজ শুরু করিনি।</p>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-image-container">
+                        <img src="project_image/Ghorarbazar.png" alt="ঘরের বাজার প্রজেক্ট">
+                    </div>
+                    <div class="project-info">
+                        <h3>"ঘরের বাজার"</h3>
+                        <p>HTML ও CSS ব্যবহার করে তৈরি করা একটি ই-কমার্স কনসেপ্টের ল্যান্ডিং পেজ। এটি আমার শেখার প্রাথমিক ধাপের একটি প্রজেক্ট।</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-project"><i class="fas fa-eye"></i> লাইভ দেখুন</a>
+                            <a href="#" target="_blank" class="btn-project"><i class="fab fa-github"></i> কোড দেখুন</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                     <div class="project-image-container">
+                        <img src="project_image/my portfolio web demo.png" alt="পার্সোনাল পোর্টফোলিও প্রজেক্ট">
+                    </div>
+                    <div class="project-info">
+                        <h3>সিম্পল পার্সোনাল পোর্টফোলিও</h3>
+                        <p>HTML, CSS এবং সামান্য JavaScript ব্যবহার করে নিজের জন্য একটি সাধারণ পোর্টফোলিও ওয়েবসাইট তৈরির অনুশীলন।</p>
+                         <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-project"><i class="fas fa-eye"></i> লাইভ দেখুন</a>
+                            <a href="#" target="_blank" class="btn-project"><i class="fab fa-github"></i> কোড দেখুন</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CERTIFICATIONS / LEARNING ==================== -->
+    <section id="learning" class="learning-section">
+        <div class="container">
+            <h2 class="section-title">এখানে কিছু লিখিনি !</h2>
+            <div class="learning-content reveal">
+                <i class="fas fa-brain learning-icon"></i>
+                <h3>Self Learning</h3>
+                <p>আমি মূলত YouTube, বিভিন্ন টেক ব্লগ এবং অফিসিয়াল ডকুমেন্টেশন অনুসরণ করে নিজে নিজে শিখছি। প্রতিনিয়ত নতুন কিছু জানার এবং প্রয়োগ করার চেষ্টা করি।</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ==================== LANGUAGE SKILLS ==================== -->
+    <section id="languages" class="languages-section">
+        <div class="container">
+            <h2 class="section-title">ভাষা দক্ষতা</h2>
+            <div class="languages-grid">
+                <div class="language-item reveal">
+                    <h3>বাংলা</h3>
+                    <p>(নেটিভ)</p>
+                    <div class="progress-bar-container"><div class="progress-bar" style="width: 100%;"></div></div>
+                </div>
+                <div class="language-item reveal">
+                    <h3>ইংরেজি</h3>
+                    <p>(ভালো)</p>
+                    <div class="progress-bar-container"><div class="progress-bar" style="width: 75%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">যোগাযোগ করুন</h2>
+            <div class="contact-content">
+                <div class="contact-form-container reveal">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                        <!-- Replace with your Access Key -->
+                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                        <!-- অবশ্যই web3forms.com থেকে আপনার নিজের Access Key সংগ্রহ করে উপরের value তে বসান -->
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="আপনার নাম" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="আপনার ইমেইল" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="আপনার বার্তা" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">বার্তা পাঠান</button>
+                    </form>
+                </div>
+                <div class="contact-info reveal">
+                    <h3>অন্যান্য মাধ্যমে যোগাযোগ</h3>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:ssd206232@gmail.com">ssd206232@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:01782019073">01782019073</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> খালসী, মানিকগঞ্জ, বাংলাদেশ</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/s.h.u.v.o.tsu.21487?rdid=FELK6sHVNje6wAfr&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19SMaJbVHo%2F#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="এখানে গিটহাব আইডির লিংক" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="এখানে লিংডিন আইডির লিংক" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <!-- যদি অন্য কোনো সোশ্যাল মিডিয়া থাকে, এখানে যোগ করতে পারেন -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> All rights reserved - Shuvo Das</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- JavaScript for Typewriter and other interactions -->
+    <script>
+        // Typewriter Effect
+        const typedTextSpan = document.getElementById("typed-text");
+        const textArray = ["কম্পিউটার টেকনোলজির ছাত্র", "ভবিষ্যৎ ওয়েব ডেভেলপার", "প্রোগ্রামার"];
+        const typingDelay = 120;
+        const erasingDelay = 80;
+        const newTextDelay = 1800; // Delay between current and next text
+        let textArrayIndex = 0;
+        let charIndex = 0;
+
+        function type() {
+            if (charIndex < textArray[textArrayIndex].length) {
+                typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, typingDelay);
+            } else {
+                setTimeout(erase, newTextDelay);
+            }
+        }
+
+        function erase() {
+            if (charIndex > 0) {
+                typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(erase, erasingDelay);
+            } else {
+                textArrayIndex++;
+                if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+                setTimeout(type, typingDelay + 1000);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() { 
+            if (textArray.length) setTimeout(type, newTextDelay + 200);
+        });
+
+        // Hamburger Menu for Mobile
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.querySelector('i').classList.toggle('fa-bars');
+            hamburger.querySelector('i').classList.toggle('fa-times');
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                    hamburger.querySelector('i').classList.add('fa-bars');
+                    hamburger.querySelector('i').classList.remove('fa-times');
+                }
+                // Active link highlighting
+                document.querySelectorAll('.nav-links a').forEach(navLink => navLink.classList.remove('active'));
+                link.classList.add('active');
+            });
+        });
+        
+        // Sticky Navigation & Scroll to Top Button
+        const header = document.querySelector('header');
+        const scrollToTopBtn = document.querySelector('.scroll-to-top');
+
+        window.addEventListener('scroll', function() {
+            header.classList.toggle('sticky', window.scrollY > 0);
+             if (window.scrollY > 300) {
+                scrollToTopBtn.classList.add('visible');
+            } else {
+                scrollToTopBtn.classList.remove('visible');
+            }
+
+            // Active link highlighting on scroll
+            let currentSection = "";
+            const sections = document.querySelectorAll("section");
+            const navHeight = header.offsetHeight;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - navHeight - 50; // 50px offset
+                if (pageYOffset >= sectionTop) {
+                    currentSection = section.getAttribute("id");
+                }
+            });
+            
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === currentSection) {
+                    link.classList.add('active');
+                }
+            });
+             // If at top, set Home to active
+            if (window.pageYOffset < sections[0].offsetTop - navHeight - 50) {
+                 document.querySelectorAll('.nav-links a').forEach(link => link.classList.remove('active'));
+                 document.querySelector('.nav-links a[href="#hero"]').classList.add('active');
+            }
+
+        });
+
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Scroll Reveal Animation
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    // Optional: unobserve after revealing to save resources
+                    // revealObserver.unobserve(entry.target); 
+                } else {
+                    // Optional: remove class if you want animation to repeat on scroll up & down
+                    // entry.target.classList.remove('visible');
+                }
+            });
+        }, {
+            threshold: 0.1 // Trigger when 10% of the element is visible
+        });
+
+        revealElements.forEach(el => {
+            revealObserver.observe(el);
+        });
+
+        // Contact Form Submission (using Web3Forms for example)
+        // Go to https://web3forms.com/ and get your free access key.
+        // Then replace 'YOUR_ACCESS_KEY_HERE' in the HTML form.
+        const form = document.querySelector('.contact-form');
+        form.addEventListener('submit', function(e) {
+            // You can add custom JS handling here if needed, e.g., showing a success message.
+            // For Web3Forms, it will redirect to a success page or show a JSON response.
+            // Basic example:
+            // e.preventDefault(); // Uncomment if you want to handle submission fully with JS
+            // alert('বার্তা পাঠানোর জন্য ধন্যবাদ!'); // Simple alert
+        });
+
+    </script>
+</body>
+</html>
